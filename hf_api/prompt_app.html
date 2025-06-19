@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hugging Face × JS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800 min-h-screen flex items-center justify-center p-6">
+
+    <div class="bg-white shadow-xl rounded-lg p-8 w-full max-w-xl space-y-6">
+        <h1 class="text-2xl font-bold text-center text-sky-600">Hugging Face API</h1>
+
+        <div class="space-y-4">
+            <input type="text" id="prompt" placeholder="プロンプトを入力"
+                class="w-full border border-gray-300 rounded-md p-3 text-sm focus:ring-2 focus:ring-sky-400 focus:outline-none" />
+
+            <button onclick="generateText()"
+                class="w-full bg-sky-500 hover:bg-sky-600 text-white font-semibold py-2 px-4 rounded-md transition">
+                生成
+            </button>
+        </div>
+
+        <pre id="result"
+            class="bg-gray-50 p-4 rounded-md text-sm whitespace-pre-wrap h-60 overflow-y-auto border border-gray-200"></pre>
+    </div>
+
+    <!-- 外部スクリプト -->
+    <script src="js/env.js"></script>
+    <script src="js/prompt_app.js"></script>
+</body>
+
+</html>

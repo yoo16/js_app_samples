@@ -184,7 +184,7 @@ const showOrderHistory = () => {
         orderHistory.forEach((order, orderIndex) => {
             const orderList = document.createElement('div');
             orderList.classList.add('mb-4', 'p-4', 'border', 'rounded-lg', 'bg-gray-50');
-        
+
             // オーダー商品リストを表示
             order.forEach(item => {
                 const orderItem = document.createElement('div');
@@ -192,12 +192,12 @@ const showOrderHistory = () => {
                 orderItem.innerText = `${item.name} - $${item.price.toFixed(2)}`;
                 orderList.appendChild(orderItem);
             });
-        
+
             // orderHistoryListにオーダーアイテムを追加
             orderHistoryList.appendChild(orderList);
         });
     } else {
-    //オーダー履歴がなければ
+        //オーダー履歴がなければ
         // メッセージ表示
         orderHistoryList.innerHTML = '<div>No orders placed yet.</div>';
     }
