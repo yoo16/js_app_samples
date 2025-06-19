@@ -1,38 +1,8 @@
 [
-    {
-        "id": 1,
-        "name": "まぐろ",
-        "price": 100,
-        "image": "images/0001.png"
-    },
-    {
-        "id": 2,
-        "name": "サーモン",
-        "price": 100,
-        "image": "images/0002.png"
-    },
-    {
-        "id": 3,
-        "name": "えび",
-        "price": 100,
-        "image": "images/0003.png"
-    },
-    {
-        "id": 4,
-        "name": "活〆はまち",
-        "price": 120,
-        "image": "images/0004.png"
-    },
-    {
-        "id": 5,
-        "name": "いくら",
-        "price": 160,
-        "image": "images/0005.png"
-    },
-    {
-        "id": 6,
-        "name": "カリカリポテト",
-        "price": 220,
-        "image": "images/0006.png"
-    }
+  { "id": 1, "name": "まぐろ", "price": 100, "image": "images/0001.png", "category": "まぐろ" },
+  { "id": 2, "name": "サーモン", "price": 100, "image": "images/0002.png", "category": "サーモン" },
+  { "id": 3, "name": "えび", "price": 100, "image": "images/0003.png", "category": "えび" },
+  { "id": 4, "name": "活〆はまち", "price": 120, "image": "images/0004.png", "category": "白身" },
+  { "id": 5, "name": "いくら", "price": 160, "image": "images/0005.png", "category": "いくら" },
+  { "id": 6, "name": "カリカリポテト", "price": 220, "image": "images/0006.png", "category": "サイドメニュー" }
 ]
