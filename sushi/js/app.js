@@ -52,7 +52,7 @@ function renderMenu(category) {
         const card = document.createElement("div");
         card.className = "bg-white rounded shadow p-4 flex flex-col items-center";
         card.innerHTML = `
-      <img src="${item.image}" alt="${item.name}" class="w-32 h-32 object-cover rounded mb-2">
+      <img src="${item.image}" alt="${item.name}" class="w-32 rounded mb-2">
       <h3 class="text-lg font-semibold">${item.name}</h3>
       <p class="text-sm text-gray-600 mb-2">¥${item.price}</p>
       <button class="bg-sky-500 hover:bg-sky-600 text-white px-4 py-1 rounded"

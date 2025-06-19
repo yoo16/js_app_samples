@@ -4,5 +4,7 @@
   { "id": 3, "name": "えび", "price": 100, "image": "images/0003.png", "category": "えび" },
   { "id": 4, "name": "活〆はまち", "price": 120, "image": "images/0004.png", "category": "白身" },
   { "id": 5, "name": "いくら", "price": 160, "image": "images/0005.png", "category": "いくら" },
-  { "id": 6, "name": "カリカリポテト", "price": 220, "image": "images/0006.png", "category": "サイドメニュー" }
+  { "id": 6, "name": "本鮪中とろ", "price": 160, "image": "images/0006.png", "category": "まぐろ" },
+  { "id": 10, "name": "アカイカ", "price": 160, "image": "images/0006.png", "category": "いか" },
+  { "id": 20, "name": "カリカリポテト", "price": 220, "image": "images/0020.png", "category": "サイドメニュー" }
 ]
